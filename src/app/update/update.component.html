@@ -1,0 +1,43 @@
+<app-navbar></app-navbar>
+<div class="container mt-4" >
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label"></label>
+                  
+                    <div class="card" style="width: 18rem;" >
+                        <img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?size=626&ext=jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            <label for="" class="form-label">Name</label>
+                            <input type="text" [(ngModel)]="canme" name="canme"  class="form-control" >
+                          </h5>
+                         
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          
+                            <label for="" class="form-label">Age</label>
+                          <input type="text" [(ngModel)]="age" name="age" id="age" class="form-control" >
+                          <label for="" class="form-label">Username</label>
+                          <input type="text" [(ngModel)]="username" name="username" id="" class="form-control">
+                        
+                       
+                        </ul>
+                        <div class="card-body">
+                            <button (click)="update()"   class="btn btn-success">Update</button>
+                        </div>
+                      </div>
+
+
+                </div>
+               
+            
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

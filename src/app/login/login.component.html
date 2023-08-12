@@ -1,0 +1,20 @@
+<div class="container mt-4" >
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Username</label>
+                    <input type="text" [(ngModel)]="username" name="username" id="" class="form-control">
+                </div>
+               
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Password</label>
+                    <input type="text"  [(ngModel)]="password" name="password" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button (click)="readValues()"  class="btn btn-success">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
